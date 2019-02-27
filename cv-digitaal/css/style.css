@@ -1,0 +1,277 @@
+a {
+	text-decoration: none;
+	color: #2d2d2d;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+.line {
+	width: 25px;
+	height: 5px;
+	background-color: #35636e;
+	margin: 25px auto 40px;
+	border-radius: 100px;
+}
+
+.line-2 {
+	width: 25px;
+	height: 5px;
+	background-color: #fff;
+	margin: 25px auto 40px;
+	border-radius: 100px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	min-height: 100vh;
+	margin: 0;
+	color: #2d2d2d;
+}
+
+.top {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.center {
+	background-image: url("../images/wall1.png");
+	background-size: cover;
+	padding: 50px 0px 150px;
+	color: #ffffff;
+}
+
+main {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.full-header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 140px;
+	background-color: #f5f5f5;
+}
+
+.fixed {
+    margin-top: 45px;
+}
+
+nav ul {
+/*	border-top: 0.2px solid;
+	border-bottom: 0.2px solid;*/
+	padding: 12px 0px;
+	width: 100%;
+	margin: 0 auto 180px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 40px;
+	transition: ease-in-out 0.1s;
+}
+
+nav ul li:hover {
+	transition: ease-in-out 0.1s;
+	color: lightgrey;
+}
+
+header {
+	margin-top: 210px;
+}
+
+header .flex-item img {
+	width: 165px;
+	display: inline-block;
+	margin: -106px auto 35px;
+/*	box-shadow: 17px 20px 24px -22px rgba(0,0,0,0.5);
+*/	border-radius: 85px;
+}
+
+header .flex-item h1, header .flex-item h2, header .flex-item h3 {
+	margin: 0px;
+}
+
+header .flex-item h1 {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+header .flex-item h2 {
+	color: #d4d4d4;
+	font-weight: lighter;
+	font-size: 130%;
+	text-transform: uppercase;
+}
+
+header .flex-item h3 {
+	margin-top: 15px;
+	font-size: 100%;
+}
+
+.white-bg {
+    width: 186px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: -63px;
+    background-color: white;
+}
+
+.extra {
+	padding-top: 120px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+
+.flex-cont {
+	margin-top: 80px;
+}
+
+.flex-cont .flex-item p {
+	width: 70%;
+	margin: 0 auto;
+	font-weight: lighter;
+	font-size: 92%;
+	line-height: 25px;
+}
+
+.center .flex-cont .flex-item h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.flex-item-btn h3 {
+	width: 80px;
+	padding: 10px 40px;
+	border-radius: 50px;
+	margin: 0 auto;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin-bottom: 100px;
+	transition: ease-in-out 0.2s;
+	background-color: #35636e;
+	border: 1px solid #35636e;
+}
+
+.flex-item-btn h3:hover {
+	transition: ease-in-out 0.2s;
+	border: 1px solid #35636e;
+	color: lightgrey;
+	background-color: #35636e;
+	border-radius: 50px 50px 15px 50px;
+}
+
+
+.talen img {
+	width: 450px;
+}
+
+
+.kennis {
+	width: 80%;
+	background-image: url("../images/kennis2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	color: #ffffff;
+	margin: 100px auto;
+	padding: 50px 0px;
+	border-radius: 25px;
+}
+
+.kennis ul li {
+	display: inline-block;
+	margin: 40px;
+}
+
+.interesse ul {
+	display: inline-block;
+	margin-bottom: 100px;
+	vertical-align: top;
+	font-size: 150%;
+}
+
+.interesse ul li {
+	display: inline-block;
+	margin: 30px;
+	color: #35636e;
+	font-weight: 500;
+}
+
+
+.hover-intrests ul a li i:hover {
+	font-size: 180%;
+}
+
+footer {
+	background-color: #f5f5f5;
+	font-size: 85%;
+}
+
+.footer-top{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 150px;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+}
+
+.footer-top .flex-item {
+	flex: 3 1 auto;
+	flex-basis: 0px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.footer-bottom {
+	width: 20%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 65px;
+	background-color: #f5f5f5;
+	color: #000;
+	font-size: 120%;
+}
+
+.footer-bottom div {
+	flex: 3 1 auto;
+	flex-basis: 0px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family: 'futura pt', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
